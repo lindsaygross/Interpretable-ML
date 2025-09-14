@@ -76,4 +76,4 @@ Each row represents a customer with the following feauture:
 ## Author
 Lindsay Gross
 MEng AI
-AIPI 590: Explainable AI
+AIPI 590: Explainable
