@@ -4,6 +4,9 @@
 
 This project investigates customer churn at a telecommunications company using interpretable machine learning models. The goal is to understand which factors contribute most to churn and to build predictive models that are both accurate and interpretable.
 
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lindsaygross/Interpretable-ML/blob/main/Interpretable_ML.ipynb)
+
+
 
 Dataset: https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
 
