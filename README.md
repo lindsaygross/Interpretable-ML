@@ -13,7 +13,7 @@ Dataset: https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
 
 ## Tasks
 
-1. Exploratory Data Analysis (EDA)
+**1. Exploratory Data Analysis (EDA)**
 
 - Investigate feature distributions and relationships with churn
 - Use visualizations (e.g., boxplots, barplots, KDEs)
@@ -22,22 +22,22 @@ Linear regression
 Logistic regression
 Generalized Additive Models (GAM)
 
-2. Linear Regression
+**2. Linear Regression**
 - Treat churn as a continuous variable (0 or 1)
 - Fit a linear regression model
 - Interpret coefficients and assess performance
 
-3. Logistic Regression
+**3. Logistic Regression**
 - Treat churn as a binary classification problem
 - Fit a logistic regression model
 - Interpret model coefficients and log-odds
 
-4. Generalized Additive Model (GAM)
+**4. Generalized Additive Model (GAM)**
 - Fit a GAM to capture non-linear trends
 - Visualize partial dependence plots
 - Interpret smooth relationships
 
-5. Model Comparison & Recommendation
+**5. Model Comparison & Recommendation**
 - Compare linear, logistic, and GAM models on:
 - Accuracy/performance
 - Interpretability
@@ -73,7 +73,18 @@ Each row represents a customer with the following feauture:
 
 - Target variable: Churn (Yes/No)
 
+## Results
+- **Linear Regression**: Accuracy ~0.73, ROC-AUC ~0.77 (not suitable for churn prediction).
+- **Logistic Regression**: Accuracy ~0.80, ROC-AUC ~0.84 (best performing model).
+- **GAM**: Accuracy ~0.77, ROC-AUC ~0.81 (slightly weaker performance but best interpretability).
+
+**Recommendation**: Use Logistic Regression for churn prediction, and GAM for insights into customer behavior.
+
+
 ## Author
 Lindsay Gross
+
 MEng AI
-AIPI 590: Explainable
+
+AIPI 590: Explainable AI
+
